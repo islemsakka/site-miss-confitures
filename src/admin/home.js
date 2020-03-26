@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../App.css';
 
 import HomeContent from './home-content';
+import Navigbar from './navbar';
+
 
 
 class Home extends Component {
@@ -12,8 +14,9 @@ class Home extends Component {
     render() {
 
         return (<div>
-
+          
             <HomeContent />
+            
 
         </div>
         );

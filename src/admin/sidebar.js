@@ -6,6 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 
 
+
 class Sidebar extends Component {
     constructor(props) {
         super(props);
@@ -13,7 +14,7 @@ class Sidebar extends Component {
     }
     render() {
         return (<div className="cont">
-
+          
             <Card className="cardHolder">
                 <Card.Body >
                     <div className="adminInfo">
@@ -27,7 +28,7 @@ class Sidebar extends Component {
                         </div>
 
                     </div>
-                    <Router>
+                 
 
                         <div className="sidebarBtns">
 
@@ -41,7 +42,7 @@ class Sidebar extends Component {
 
                         </div>
 
-                    </Router>
+            
 
                 </Card.Body>
             </Card>

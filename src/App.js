@@ -16,9 +16,11 @@ function App() {
   return (
     <div >
       <Router>
-        <Route path="/" component={Sidebar} />
-        <Route exact path="/" component={Navigbar} />
-        <Route exact path="/" component={Home} />
+      <Route    path="/" component={Navigbar} /> 
+      <Route   exact path="/" component={Home} />
+      <Route    path="/" component={Sidebar} />
+        
+        
         <Route path="/analytics" component={Analytics} />
         <Route path="/calendar" render={() => <Calendar />} />
         <Route path="/maps" render={() => <Map />} />
